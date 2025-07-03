@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+
+.container {
+  text-align: center;
+}
+
+.title {
+  margin-top: 20px;
+  color: rgb(92, 139, 249);
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poiret One", sans-serif;
+}
+
+.reset {
+  width: 250px;
+  height: 60px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50px;
+  font-size: 26px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(84, 149, 133);
+  font-family: "Poiret One", sans-serif;
+  font-weight: 600;
+}
+
+.square {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  background-color: rgb(255, 255, 255);
+  border: 4px solid rgb(46, 82, 125);
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.board {
+  height: 500px;
+  width: 464px;
+  display: flex;
+  margin: auto;
+  margin-bottom: -50px;
+}
+
+.square img {
+  width: 85%;
+  height: 85%;
+  object-fit: contain;
+  margin-top: 10px;
+  margin-left: 12px;
+}
