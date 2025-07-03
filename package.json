@@ -1,5 +1,6 @@
 {
   "name": "tictactoe",
+  "homepage": "https://tictactoe-c59y.onrender.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
